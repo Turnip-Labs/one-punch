@@ -1,9 +1,12 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "turniplabs.onepunch.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+        "BlockDoorMixin",
+        "BlockFenceGateMixin",
+        "BlockTrapdoorMixin"
     ],
     "client": [
     ],
